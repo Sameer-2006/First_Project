@@ -1,0 +1,53 @@
+body{
+   background-image: url(https://wallpapers.com/images/hd/aesthetic-couple-with-cityscape-55guuu5v6mlmirvn.jpg);
+    background-size: cover;
+    cursor:url('/pxfuel.jpg'),auto;
+}
+#middle{
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.box{
+    background-color: rgba(255, 255, 255, 0.3); /* Semi-transparent background */
+    backdrop-filter: blur(10px); /* Blur effect */
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    height: 400px;
+    width: 600px;
+    border-radius: 30px;
+    color: rgb(249, 249, 249);
+    font-family: "Love Light", cursive;
+    font-size: 50px;
+}
+.button{
+    height: 40px;
+    width: 90px;
+    border-radius:10px;
+    color: white    ;
+    font-size: 20px;
+    border-width: 2px;  
+    transition: top 0.5s ease, left 0.5s ease;
+    position: absolute;
+}
+#yes{
+    background-color: rgb(51, 202, 51);
+    border-color: rgb(51, 202, 51);
+    top: 334px;
+    left: 200px;
+  
+}
+
+#no{
+    background-color: red;
+    border-color: red;
+   
+    top: 334px;
+    left: 350px;
+}
+.box img{
+    border-radius: 20px;
+    margin-top: 32px;
+}
